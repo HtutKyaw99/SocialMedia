@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#posts{
+    max-width: 300px;
+}
+.post{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-break:break-all;
+}
+.option{
+    display: flex;
+    align-items: center;
+}
+.post i{
+    margin-left: 10px;
+    cursor: pointer;
+}
